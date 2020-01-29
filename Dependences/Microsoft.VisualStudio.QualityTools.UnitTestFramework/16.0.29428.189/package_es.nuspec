@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>16.0.29428.189</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <!-- Este Id es indispensable, debe der ser unico  en tu Feed de Nuget y tambien no debe de coincidir con el ID de Nuget.org-->
+    <id>Microsoft.VisualStudio.QualityTools.UnitTestFramework</id>
+    <!-- Titulo que aparecera en el Nuget Manager-->
+    <title>Microsoft.VisualStudio.QualityTools.UnitTestFramework</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Dll usada para pruebas.</description>
+    <copyright>Microsoft</copyright>
+     <dependencies>
+      <!---->
+      <group targetFramework="net46">
+       <package id="JetBrains.Annotations" version="2019.1.3" targetFramework="net46" />
+    </group>
+     <group targetFramework="net461">
+       <package id="JetBrains.Annotations" version="2019.1.3" targetFramework="net46" />
+    </group>
+      <group targetFramework="net462">
+        <package id="JetBrains.Annotations" version="2019.1.3" targetFramework="net46" />
+    </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" target="lib/net40" />
+    <file src="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" target="lib/net45" />
+    <file src="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" target="lib/net46" />
+    <file src="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" target="lib/net461" />
+    <file src="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" target="lib/net462" />
+  </files>
+ 
+</package>
