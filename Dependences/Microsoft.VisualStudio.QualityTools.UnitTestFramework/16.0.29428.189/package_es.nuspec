@@ -26,8 +26,6 @@
   </metadata>
   <!-- El archivo nuspec debe estar en la misma ruta que la dll, puedes ajustar esto en Teamcity o en los Paths-->
   <files>
-    <file src="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" target="lib/net40" />
-    <file src="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" target="lib/net45" />
     <file src="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" target="lib/net46" />
     <file src="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" target="lib/net461" />
     <file src="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" target="lib/net462" />
